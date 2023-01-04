@@ -1,0 +1,79 @@
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    font-style: italic;
+    font-weight: normal;
+    font-stretch: extra-expanded;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 5px;
+    word-spacing: 1em;
+    border: 1px solid black;
+    width: 100%;
+    margin: 50px;
+    padding: 10px;
+    border-width: 4px;
+    text-align: center;
+
+
+
+
+}
+
+p{
+
+    text-transform: none;
+    text-align: justify;
+    border: 1px solid black;
+    text-indent: 50px;
+    min-width: 600px;
+    max-width: 1000px;
+    max-height: 1000px;
+    min-height: 400px;
+    overflow: visible;
+    border-style:solid ;
+    border-width: 2px;
+    background-color: burlywood;
+    margin: 50px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 40px;
+    -moz-border-radius:40px;
+    -webkit-border-radius:40px;
+
+    box-shadow: inset,60px,60px darkgray;
+
+
+}
+#paradiv{
+    max-width: 1000px;
+    min-width: 600px;
+    max-height: 1000px;
+    min-height: 400px;
+    /* min-width: 2000px; */
+    border: 2px solid blue;
+    margin: 50px;
+    padding: 20px;
+    background-color: azure;
+    box-shadow:10px 10px 10px darkslategrey;
+    border-radius: 40px;
+    
+}
+p::first-letter{
+    font-size: 25px;
+
+}
+a:link{
+    color: blue;
+    border: 1px solid black;
+
+}
+
+ul + li{
+    display: list-item;
+    list-style-type: circle;
+    }
+ol + li{
+        list-style-type: lower-alpha;
+        margin: 10px;
+    }

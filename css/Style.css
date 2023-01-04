@@ -1,0 +1,62 @@
+/* Type Selector */
+h1,h5{
+    color: blue ;
+}
+h1{
+    color: darkgoldenrod ;
+    background-color: rgba(35, 240, 16,.2);
+}
+/* Universal Selector */
+*{
+    color: rgb(245, 17, 112);
+
+    /* color: rgb(95, 226, 29); */
+}
+/* class selector */
+.blue{color: #000
+    ;}
+/* Child selector */
+div>p{
+    color: chocolate;
+}
+/* descendant Selector */
+div a{
+    color: blueviolet;
+}
+
+/* sibbling Selector */
+h1~h2{
+    color: darkcyan;
+}
+/* Adjacent sibbling selector */
+h1+h3{
+    color: coral
+}
+h1,h2,h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+#font-face{
+    font-family:"open source";
+    src: url("/HtlmAndCss/css/index.html");
+    format("woff");
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: lighter;
+    font-style: italic,oblique;
+    font-stretch: wider;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+
+}
+h::first-letter{
+    font-size: 25px;
+
+}
+a:visited{
+    color: blue;
+}
+a:link{
+    color: rgb(240, 12, 12);
+}

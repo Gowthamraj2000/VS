@@ -1,0 +1,54 @@
+body{
+    background: url("/HtlmAndCss/images/pexels-maxime-francis-2246476.jpg");
+}
+.Reg{
+    font-size: 25px;
+    width: 500px;
+    margin: 250px auto;
+    padding: 10px 20px 30px;
+    background-color: rgba(0, 0, 0,.5);
+    color: white;
+    border-radius: 8px;
+}.Reg h3{
+    text-align: center;
+    color: rgb(240, 133, 192);
+}
+.Reg .Textlable{
+    display: block;
+}
+.input input{
+    width: 100%;
+    font-size: 1.2em;
+    border: 1px solid aquamarine;
+    box-shadow: 2px;
+    border-radius: 8px;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    margin: 5px 0px 15px;
+
+    
+}
+input:focus{
+    background-color: bisque;
+
+}
+.btn{
+    text-align: center;
+}
+button{
+    background-color: rgb(78, 211, 166);
+    font-size: 30px;
+    color: white;
+    margin-top: 20px;
+    padding: 15px 25px;
+    border-radius:10px ;
+    border: 1px solid rgb(78, 211, 166);
+    box-shadow: 5px;
+}
+.radio input{
+    accent-color: rgb(78, 211, 166);
+    transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+
+}

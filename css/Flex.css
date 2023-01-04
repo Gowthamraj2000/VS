@@ -1,0 +1,44 @@
+.outerbox{
+    background-color: blueviolet;
+    min-height: 400px;
+    display: flex;
+    /* flex-direction: column; */
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 250px;
+    height: 150px;
+    background-color: brown;
+    border: 2px solid white;
+}
+.box1{
+    /* align-self: flex-start; */
+    flex: 1 2 0px;
+}
+.box2{
+    flex-shrink: 2;
+}
+.container{
+    display: flex;
+    /* flex-direction: column; */
+}
+p{
+    padding: 10px;
+}
+.para1{
+    background-color: aqua;
+    flex: 1;
+    order: 2;
+}
+.para2{
+    background-color: brown;
+    flex: 1;
+    order: 3;
+}
+.para3{
+    background-color: burlywood;
+    flex: 2;
+    order: 1;
+}
